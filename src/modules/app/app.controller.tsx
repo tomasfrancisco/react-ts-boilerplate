@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { Provider } from 'react-redux';
-import { appStore } from './app.store';
+import * as React from "react";
+import { Provider } from "react-redux";
+import { appStore } from "./app.store";
 
 export class AppController extends React.Component<{}, {}> {
   public render() {

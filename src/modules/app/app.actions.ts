@@ -1,6 +1,6 @@
 export enum Constants {
-  LOAD = 'app/LOAD',
-  EXAMPLE = 'app/EXAMPLE'
+  LOAD = "app/LOAD",
+  EXAMPLE = "app/EXAMPLE"
 }
 
 export interface Load {
@@ -12,9 +12,7 @@ export interface Example {
   value: string;
 }
 
-export type Action =
-  | Load
-  | Example;
+export type Action = Load | Example;
 
 export const load = (): Load => ({
   type: Constants.LOAD
