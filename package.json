@@ -49,13 +49,16 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
+    "storybook": "start-storybook -p 9001 -c config/storybook",
     "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
+    "@storybook/react": "^3.3.15",
     "@types/jest": "^22.2.0",
     "@types/node": "^9.4.7",
     "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
+    "@types/storybook__react": "^3.0.7",
     "husky": "^0.14.3",
     "prettier": "1.11.1",
     "pretty-quick": "^1.4.1",
