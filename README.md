@@ -1,6 +1,19 @@
 ## Table of Contents
 
+* [Boilerplate stack](#boilerplate-stack)
 * [Project Structure](#project-structure)
+* [ToDo](#todo)
+
+## Boilerplate Stack
+
+* React.js
+* Typescript
+* Redux
+* Storybook
+* Styled-Components
+* Prettier
+* Jest
+* Enzyme
 
 ## Project Structure
 
@@ -41,3 +54,8 @@ Questions that help getting the answer for component naming:
 
 When the file is being used to control business logic, multiple components, or just data handling.
 This type of code is usual coupled to the application, what makes hard to reuse outside of context.
+
+## ToDo
+
+* [ ] Add redux saga (w/ example)
+* [ ] Add dependencies links to boilerplate stack topic on README
