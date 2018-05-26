@@ -1,9 +1,5 @@
-import { appReducer } from "./app.reducer";
-import createSagaMiddleware from "redux-saga";
-import { combineReducers, createStore, applyMiddleware } from "redux";
+import { observable } from "mobx";
 
-const sagaMiddleware = createSagaMiddleware();
-
-const reducer = combineReducers({ appReducer });
-
-export const appStore = createStore(reducer, applyMiddleware(sagaMiddleware));
+export class AppStore {
+  @observable public color: string = "red";
+}

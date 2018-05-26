@@ -8,7 +8,7 @@
 
 * React.js
 * Typescript
-* Redux
+* MobX
 * Storybook
 * Styled-Components
 * Prettier
@@ -29,9 +29,7 @@ src/
       index.ts
   modules/
     app/
-      app.actions.ts
       app.controller.tsx
-      app.reducer.ts
       app.store.ts
       index.ts
   pages/
@@ -57,5 +55,4 @@ This type of code is usual coupled to the application, what makes hard to reuse 
 
 ## ToDo
 
-* [ ] Add redux saga (w/ example)
 * [ ] Add dependencies links to boilerplate stack topic on README
