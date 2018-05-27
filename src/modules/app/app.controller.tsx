@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Provider } from "mobx-react";
-import { MobxButtonComponent } from "./mobx-button.component";
 import { AppStore } from "./app.store";
 import DevTools from "mobx-react-devtools";
+import { ButtonComponent as Button } from "@components/button";
 
 export type Stores = { appStore: AppStore };
 
@@ -21,7 +21,7 @@ export class AppController extends React.Component<{}, {}> {
     return (
       <React.Fragment>
         <Provider {...this.stores}>
-          <MobxButtonComponent />
+          <Button>Button</Button>
         </Provider>
         {process.env.NODE_ENV === "development" && <DevTools />}
       </React.Fragment>
